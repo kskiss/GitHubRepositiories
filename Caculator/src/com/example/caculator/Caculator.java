@@ -13,6 +13,8 @@ public class Caculator extends Activity implements OnClickListener {
 	private MyButton[] mBtns = new MyButton[20];
 	private EditText mDisplayEditText = null;
 
+	private double resultNumber = 0.0;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
